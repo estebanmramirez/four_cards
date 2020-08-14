@@ -36,32 +36,47 @@ body{
 .main{
     display: grid;
     grid-template-columns: 250px 250px 250px;
+    grid-template-areas: 
+    "supervisor teambuilder calculator"
+    "supervisor karma calculator";
     justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
     margin-top: 30px;
 }
 
 .main--container1{
+    grid-area: supervisor;
     width: 230px;
     height: 200px;
     background-color: white;
+    align-self: center;
+    justify-self: center;
 }
 
 .main--container2{
+    grid-area: teambuilder;
     width: 230px;
     height: 200px;
     background-color: white;
+    justify-self: center;
 }
 
 .main--container3{
+    grid-area: calculator;
     width: 230px;
     height: 200px;
     background-color: white;
+    justify-self: center;
+    align-self: center;
 }
 
 .main--container4{
+    grid-area: karma;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     width: 230px;
     height: 200px;
     background-color: white;
+    justify-self: center;
 }
