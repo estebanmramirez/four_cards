@@ -41,34 +41,53 @@ body{
     "supervisor karma calculator";
     justify-content: center;
     column-gap: 10px;
-    row-gap: 10px;
+    row-gap: 35px;
     margin-top: 30px;
 }
 
 .main--container1{
     grid-area: supervisor;
     width: 230px;
-    height: 200px;
+    height: 170px;
     background-color: white;
     align-self: center;
-    justify-self: center;
+    justify-self: center;  
+    box-shadow: 2px 8px 15px 2px  hsl(229, 6%, 66%);
+    border-top-color: hsl(180, 62%, 55%);
+    border-bottom: transparent;
+    border-right-color: transparent;
+    border-left: transparent;
+    border-style: solid;
+    
 }
 
 .main--container2{
     grid-area: teambuilder;
     width: 230px;
-    height: 200px;
+    height: 170px;
     background-color: white;
     justify-self: center;
+    box-shadow: 2px 8px 15px  hsl(229, 6%, 66%);
+    border-top-color: hsl(0, 78%, 62%);
+    border-bottom: transparent;
+    border-right-color: transparent;
+    border-left: transparent;
+    border-style: solid;
 }
 
 .main--container3{
     grid-area: calculator;
     width: 230px;
-    height: 200px;
+    height: 170px;
     background-color: white;
     justify-self: center;
     align-self: center;
+    box-shadow: 2px 8px 15px  hsl(229, 6%, 66%);
+    border-top-color: hsl(212, 86%, 64%);
+    border-bottom: transparent;
+    border-right-color: transparent;
+    border-left: transparent;
+    border-style: solid;
 }
 
 .main--container4{
@@ -76,7 +95,40 @@ body{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     width: 230px;
-    height: 200px;
+    height: 170px;
     background-color: white;
     justify-self: center;
+    box-shadow: 2px 8px 15px  hsl(229, 6%, 66%);
+    border-top-color: hsl(34, 97%, 64%);
+    border-bottom: transparent;
+    border-right-color: transparent;
+    border-left: transparent;
+    border-style: solid;
+}
+
+.main--title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: hsl(234, 12%, 34%);
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+    
+}
+
+.main--subtitle{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+    font-size: 10px;
+    font-weight: 300;
+    text-align: left;
+    padding: 5px 0px 0px 20px;
+}
+
+.main--img{
+    position: relative;
+    top: 40px;
+    left: 150px;
+    height: 40px;
+    width: 40px;
+    background-position: bottom right;
 }
