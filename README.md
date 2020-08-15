@@ -5,4 +5,4 @@
 
 <h3>les muestro el resultado final</h3>
 
-<img src="Assets/resultado.png">
+<img src="Assets/resultado.PNG">
